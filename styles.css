@@ -138,7 +138,7 @@ nav ul{
     list-style-type: none;
     padding: 0;
     /* Styles were added here to arrange the content, I used flexbox */
-    
+    display: flex;
 }
 
 nav a{
@@ -166,7 +166,7 @@ nav a span{
     display: block;
     position: relative;
     /* Styles were added here to arrange the content, I used top and z-index for this */
-    /* TO DO */
+    top: -144px;
 }
 
 nav a:focus{
